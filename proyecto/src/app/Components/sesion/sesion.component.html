@@ -1,1 +1,15 @@
-<p>sesion works!</p>
+<label>Browser Select</label>
+  <select class="browser-default col l4 push-l1">
+    <option value="" disabled selected>Seleccione el estado actual del establecimiento </option>
+    <option value="1">Cerrado</option>
+    <option value="2">Abierto</option>
+  </select>
+<div class="container col l4 push-l1">
+  <label for="compra"><b>Precio Compra</b></label>
+  <input type="number" data-length="4" placeholder="Ingresa Precio Compra" name="compra" required>
+
+  <label for="venta"><b>Precio Venta</b></label>
+  <input type="number" data-length="4" placeholder="Ingresa Precio Venta" name="venta" required>
+
+  <button type="submit">Actualizar</button>
+</div>
